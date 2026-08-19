@@ -18,6 +18,9 @@ import kotlin.random.Random
 
 private const val FRAME_DELAY_MS = 33L // ~30fps
 
+private data class Cloud(var x: Float, var y: Float, val scale: Float, val speed: Float)
+private data class Ring(var x: Float, val y: Float, val phase: Float)
+
 /**
  * Orijinal, Sega'nın Sonic görsellerinden bağımsız olarak Canvas üzerinde
  * baştan çizilen "hızlı mavi kirpi" temalı canlı duvar kağıdı.
@@ -42,9 +45,6 @@ class SonicWallpaperService : WallpaperService() {
         private var isJumping = false
 
         // ---- entities ----
-        private data class Cloud(var x: Float, var y: Float, val scale: Float, val speed: Float)
-        private data class Ring(var x: Float, val y: Float, val phase: Float)
-
         private val clouds = mutableListOf<Cloud>()
         private val rings = mutableListOf<Ring>()
 
@@ -256,7 +256,7 @@ class SonicWallpaperService : WallpaperService() {
             val speed = 6.5f
             for (ring in rings) {
                 ring.x -= speed
-                if (ring.x < -60f) ring.x = width + Random.nextInt(80, 260)
+                if (ring.x < -60f) ring.x = (width + Random.nextInt(80, 260)).toFloat()
 
                 val spin = sin(frame * 0.08f + ring.phase)
                 val ringW = 34f * (0.35f + 0.65f * kotlin.math.abs(spin))
