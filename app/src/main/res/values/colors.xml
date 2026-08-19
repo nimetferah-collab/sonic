@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="sky_top">#4FC3F7</color>
+    <color name="sky_bottom">#B3E5FC</color>
+    <color name="hill_far">#66BB6A</color>
+    <color name="hill_near">#43A047</color>
+    <color name="ground">#2E7D32</color>
+    <color name="ground_dark">#1B5E20</color>
+    <color name="hero_blue">#1E6FD9</color>
+    <color name="hero_blue_dark">#134FA0</color>
+    <color name="hero_skin">#FFC98A</color>
+    <color name="hero_shoe">#E53935</color>
+    <color name="hero_shoe_buckle">#FFD54F</color>
+    <color name="ring_gold">#FFC107</color>
+    <color name="cloud_white">#FFFFFF</color>
+    <color name="sun_yellow">#FFEB3B</color>
+    <color name="ui_background">#0D47A1</color>
+    <color name="ui_text">#FFFFFF</color>
+    <color name="ui_button">#FFC107</color>
+</resources>

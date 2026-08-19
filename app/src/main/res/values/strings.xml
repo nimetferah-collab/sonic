@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hızlı Kirpi</string>
+    <string name="wallpaper_name">Hızlı Kirpi Duvar Kağıdı</string>
+    <string name="wallpaper_description">Koşan mavi kirpi, dönen halkalar ve bulutlarla hareketli duvar kağıdı</string>
+    <string name="set_wallpaper_button">Duvar Kağıdını Ayarla</string>
+    <string name="intro_text">Hızlı Kirpi seni bekliyor!\nAşağıdaki düğmeye bas ve duvar kağıdını hemen ayarla.</string>
+</resources>

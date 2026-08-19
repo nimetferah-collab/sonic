@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- background -->
+    <path
+        android:pathData="M0,0h108v108h-108z"
+        android:fillColor="#4FC3F7" />
+
+    <!-- head -->
+    <path
+        android:pathData="M54,74 m-26,0 a26,26 0 1,0 52,0 a26,26 0 1,0 -52,0"
+        android:fillColor="#1E6FD9" />
+
+    <!-- spikes (original shape, not the Sega logo) -->
+    <path
+        android:pathData="M34,54 L14,34 L40,42 Z"
+        android:fillColor="#1E6FD9" />
+    <path
+        android:pathData="M50,40 L38,12 L58,32 Z"
+        android:fillColor="#1E6FD9" />
+    <path
+        android:pathData="M68,42 L86,18 L76,46 Z"
+        android:fillColor="#1E6FD9" />
+
+    <!-- muzzle -->
+    <path
+        android:pathData="M54,80 m-14,0 a14,10 0 1,0 28,0 a14,10 0 1,0 -28,0"
+        android:fillColor="#FFC98A" />
+
+    <!-- eye -->
+    <path
+        android:pathData="M62,66 m-6,0 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0"
+        android:fillColor="#FFFFFF" />
+    <path
+        android:pathData="M64,67 m-3,0 a3,3 0 1,0 6,0 a3,3 0 1,0 -6,0"
+        android:fillColor="#0D1B2A" />
+</vector>
